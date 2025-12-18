@@ -4,3 +4,5 @@ samsung/
 *.go
 
 .vscode
+
+.DS_STORE
