@@ -1,5 +1,6 @@
 .qodo
 SEALabsInterview/
+samsung/
 *.go
 
 .vscode
