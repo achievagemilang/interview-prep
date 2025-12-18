@@ -1,0 +1,5 @@
+.qodo
+SEALabsInterview/
+*.go
+
+.vscode
