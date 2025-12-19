@@ -23,3 +23,11 @@ class Solution {
         return r;
     }
 }
+
+/*
+Idea is to search for the square root using binary search.
+Search values from 1 to x.
+
+T(n) = O(log n)
+S(n) = O(1)
+*/
