@@ -6,7 +6,7 @@ import java.util.concurrent.Future;
 
 public class TryConcurrency {
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         CountDownLatch latch = new CountDownLatch(1);
         
         Thread loadingThread = new Thread(() -> {
@@ -43,7 +43,7 @@ public class TryConcurrency {
                 } catch(Exception e){
                     System.out.println("Error stopping loading thread: " + e.getMessage());
                 }
-
+                executor.shutdown();
                 latch.countDown();
             }
             System.out.println("Task completed.");
