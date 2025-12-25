@@ -1,5 +1,3 @@
-package leetcode.adhoc._3074_apple_redistribution_into_boxes;
-
 import java.util.Arrays;
 
 class Solution {
