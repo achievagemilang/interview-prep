@@ -1,4 +1,3 @@
-package leetcode.prefix;
 
 class Solution {
     public int[] productExceptSelf(int[] nums) {
