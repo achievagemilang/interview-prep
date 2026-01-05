@@ -1,7 +1,9 @@
-.qodo
-SEALabsInterview/
-samsung/
+# 1. Ignore all files and folders in the root
+/*
 
-.vscode
+# 2. Allow the leetcode directory itself
+!/leetcode/
+!/technical/
 
-.DS_STORE
+# 3. (Optional) Allow the .gitignore file itself to be tracked
+!.gitignore
