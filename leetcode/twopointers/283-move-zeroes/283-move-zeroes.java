@@ -1,5 +1,3 @@
-package leetcode.twopointers;
-
 class Solution {
     public void moveZeroes(int[] nums) {
         int slow = 0;
