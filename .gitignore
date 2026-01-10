@@ -4,6 +4,7 @@
 # 2. Allow the leetcode directory itself
 !/leetcode/
 !/technical/
+!/leetcode-quests/
 
 # 3. (Optional) Allow the .gitignore file itself to be tracked
 !.gitignore
