@@ -1,5 +1,3 @@
-package leetcode.adhoc;
-
 class ParkingSystem {
     int big, medium, small;
     public ParkingSystem(int big, int medium, int small) {

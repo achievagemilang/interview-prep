@@ -1,5 +1,3 @@
-package leetcode.adhoc;
-
 class Position{
     int x, y;
 
